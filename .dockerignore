@@ -1,36 +1,22 @@
 __pycache__
-*.pyc
-*.pyo
-*.pyd
+*/*.pyc
+*/*.pyo
+*/*.pyd
 .Python
 env
 pip-log.txt
-pip-delete-this-directory.txt
-.tox
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.git
-.mypy_cache
+venv
+build
+dist
+*/*.egg-info
 .pytest_cache
-.hypothesis
 
-venv/
-build/
-dist/
-*.egg-info
-.pytest_cache/
+*/*.idea
 
-*.idea
+build-notes.txt
 
-**/build-notes.txt
+*/*.pyc
 
-*.pyc
+*/*.DS_Store
 
-*.DS_Store
-
-**/out_report.xml
+out_report.xml

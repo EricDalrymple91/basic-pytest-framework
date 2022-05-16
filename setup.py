@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='basic-pytest-framework',
     version='0.1',
-    description='PodAdmin API Tests',
+    description='Fake tests',
     author='Eric Dalrymple',
     author_email='ericjdalrymple@gmail.com',
     packages=['tests'],
